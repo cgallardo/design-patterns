@@ -1,0 +1,34 @@
+{
+    "name": "cgallardo/design-patterns",
+    "description": "Design patterns from Head First Design Patterns book implemented with PHP",
+    "keywords": ["patterns", "design-patterns"],
+    "homepage": "http://github.com/slimphp/Slim-Skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Gallardo",
+            "email": "c.gallardosalas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8 < 6.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+	"scripts": {
+        "start": "php -S 0.0.0.0:8080 -t public public/index.php",
+        "test": "phpunit"
+	}
+
+}
