@@ -11,3 +11,5 @@
     $mallard->setFlyBehavior(new FlyWithWings());
     $mallard->performQuack();
     $mallard->performFly();
+    $mallard->swim();
+    $mallard->display();
