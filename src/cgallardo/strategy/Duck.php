@@ -45,5 +45,5 @@ abstract class Duck
         $this->quackBehavior = $quackBehavior;
     }
 
-    public abstract function display();
+    abstract public function display();
 }
